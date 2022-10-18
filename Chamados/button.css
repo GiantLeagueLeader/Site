@@ -1,0 +1,17 @@
+.formulario{
+    display: block;position: fixed;
+   top: -200%;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   z-index: -1;
+   -webkit-transition: all 400ms cubic-bezier(0.35,-0.39, 0.18, 1.18);
+   -moz-transition: all 400ms cubic-bezier(0.35,-0.39, 0.18, 1.18);
+   transition: all 400ms cubic-bezier(0.35,-0.39, 0.18, 1.18);
+}
+.container-table .add_table {
+    font-family: 'Vollkorn', sans-serif;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 50px;
+}

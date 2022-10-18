@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="button.css">
+    <title>GLL</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <img src="imgs/GLLLogo.png" class="logoPrincipal" alt="">
+        <h3 class="titulo">Giant League Leader</h3>
+        <div class="divPesquisa">
+            <div class="listaPesquisa">
+                <a href="#" class="links">Menu</a>
+                <a href="#" class="links">Abrir Chamados</a>
+                <a href="../index.html" class="links">Chamados</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="linhaPe">
+        <main>
+            <h2 class="funcao">
+                Chamados
+            </h2>
+        </main>
+    </div>
+
+    <div id="main">
+        <div class="h-tag">
+            <h2>Abra o seu chamado:</h2>
+        </div>
+        <div class="cadastro">
+            <table cellspacing="2" align="center" cellpadding="8" border="0">
+                <tr>
+                    <td align="right">Data de abertura:</td>
+                    <td><input type="Date" id="t1" class="tb" /></td>
+                </tr>
+                <tr>
+                    <td align="right">Técnico:</td>
+                    <td><input type="text" placeholder="Técnico" id="t2" class="tb" /></td>
+                </tr>
+                <tr>
+                    <td align="right">CPF:</td>
+                    <td><input type="text" placeholder="CPF" id="t3" class="tb" /></td>
+                </tr>
+                <tr>
+                    <td align="right">Setor:</td>
+                    <td><input type="text" placeholder="Setor" id="t4" class="tb" /></td>
+                </tr>
+                <tr>
+                    <td align="right">Descrição do Problema:</td>
+                    <td><textarea style="resize: none" cols="40" rows="5" id="t5" class="description"></textarea>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="reset" value="Limpar Form" onclick="clearFunc()" id="res" class="btn" />
+                        <input type="submit" value="Confirmar" class="btn" onclick="registration()" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
