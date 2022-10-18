@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;600;700&display=swap');
+
+
+.navbar{
+    display: flex;
+    justify-content: flex-start;
+    height: 140px;
+    background-color: #007090;
+    color: white;
+}
+
+.logoPrincipal{
+    margin-top: -30px;
+    width: 200px;
+    height: 200px;
+    max-width: 100%;
+}
+
+.titulo{
+    display: flex;
+    font-size: 30px;
+    align-items: flex-end;
+    font-family: 'Vollkorn', sans-serif;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.links{
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+    font-family: 'Vollkorn', sans-serif;
+}
+
+.links:hover{
+    font-size: 25px;
+   
+}
+
+.divPesquisa{
+    width: 60%;
+}
+
+.listaPesquisa{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    
+}
+
+.funcao{
+    font-family: 'Vollkorn', sans-serif;
+    font-size: 80px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.linhaPe{
+    height: 100%;
+    width: 10px;
+    background-color: #007090;
+}
+
+.linhaPrincipal{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+
+.linhas{
+    width: 62.5rem;
+    font-family: 'Vollkorn', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+.linhaVerde{
+    margin-left: -100px;
+    background-color: #01a7c2;
+    padding: 7px;
+    border-radius: 10px; 
+    color: green;
+}
+
+.linhaAmarela{
+    margin-left: -100px;
+    background-color: #01a7c2;
+    padding: 7px;
+    border-radius: 10px; 
+    color: yellow;
+}
+
+.linhaVermelha{
+    margin-left: -100px;
+    background-color: #01a7c2;
+    padding: 7px;
+    border-radius: 10px; 
+    color: red;
+}
+
+.linhaVerde p{
+    color: black;
+}
+
+.linhaAmarela p{
+    color: black;
+}
+
+.linhaVermelha p{
+    color: black;
+}
+
+.chamadoAmarelo{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 60rem;
+    background-color: #A3BAC3;
+    font-family: 'Vollkorn', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    color: yellow;
+}
+.chamadoVerde{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 60rem;
+    background-color: #A3BAC3;
+    font-family: 'Vollkorn', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    color: green;
+}
+.chamadoVermelho{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 60rem;
+    background-color: #A3BAC3;
+    font-family: 'Vollkorn', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    color: red;
+}
+
+.chamadoVerde p{
+    color: black;
+}
+
+.chamadoAmarelo p{
+    color: black;
+}
+
+.chamadoVermelho p{
+    color: black;
+}
